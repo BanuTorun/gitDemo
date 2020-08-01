@@ -8,6 +8,7 @@ public class DayOfGit {
         System.out.println("Aras is 6 years old");
         System.out.println("Tulpar is 4 years old");
         System.out.println("Ismail is 43 years old");
+        happyMethod(150000);
 
     }
     public static int birthday(String dob1, String dob2, String dob3){
@@ -19,6 +20,12 @@ public class DayOfGit {
         result+= Integer.parseInt(dob1.substring(6));
                 return result;
     }
+    public static void happyMethod(int salary){
+        boolean isHappy=(salary>200000)?true:false;
+        System.out.println(isHappy);
+    }
+
+
 
 
 }
