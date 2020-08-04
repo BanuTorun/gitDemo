@@ -17,5 +17,16 @@ public class DoWhileLoop {
             System.out.print(number+" ,");
             number++;
         }while(number<=until);
+
+        System.out.println();
+
+        System.out.println("================================================");
+
+        int num=5;
+        do{
+            System.out.print("&");
+            num--;
+
+        }while(num>=10); // even false once it shows "&" that is do while loop feature
     }
 }
