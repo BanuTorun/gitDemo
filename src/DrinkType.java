@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//nested loop
 public class DrinkType {
     public static void main(String[] args) {
 
