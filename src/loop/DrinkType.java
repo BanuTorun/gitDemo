@@ -1,3 +1,5 @@
+package loop;
+
 import java.util.Scanner;
 //nested loop
 public class DrinkType {
